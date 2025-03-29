@@ -32,3 +32,10 @@ Next Steps:
 
 - ensure the output is in correct format
 - next goal is to implement parsing the token
+
+March 29th 4:30pm
+
+- I was able to tokenize the string into a list tokens. I defined the tokenize function and made sure to incorporate error handling
+  for empty strings and invalid characters. I also validated the tokens, such as operators, numbers, previous expressions, and handling whitespace. I wrote test cases to validate my logic and they passed. The main logic within this function is using a recursive loop, where
+  it process remaining characters to the current-token being built and adding it to the list of tokens.
+- I accomplished my goal for this session and will next work on parsing the tokens.
