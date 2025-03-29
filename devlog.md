@@ -39,3 +39,18 @@ March 29th 4:30pm
   for empty strings and invalid characters. I also validated the tokens, such as operators, numbers, previous expressions, and handling whitespace. I wrote test cases to validate my logic and they passed. The main logic within this function is using a recursive loop, where
   it process remaining characters to the current-token being built and adding it to the list of tokens.
 - I accomplished my goal for this session and will next work on parsing the tokens.
+
+March 29th 4:37pm
+a. No new thoughts
+b. Plan to implement parse token function:
+
+- parse any operators and operands
+  - if the next character is a number, it is an operand
+  - else it is an operator
+- return expression
+- error handling of an invalid tokens
+- write example test cases to test logic
+
+Next Steps:
+
+- evaluating the expressions
